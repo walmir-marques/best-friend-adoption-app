@@ -1,0 +1,29 @@
+.adopt-container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.adopt-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas iguais */
+  gap: 16px;
+}
+
+.adopt-container-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1100px) {
+  .adopt-card-container {
+    grid-template-columns: repeat(2, 1fr); /* Cria 2 colunas iguais */
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .adopt-card-container {
+    grid-template-columns: 1fr;
+  }
+}

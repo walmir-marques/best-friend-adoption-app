@@ -1,0 +1,25 @@
+.dog-card {
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border: 2px solid #ffa500;
+  margin: auto;
+}
+
+.dog-card:hover {
+  box-shadow: 10px 10px 5px -8px rgba(240, 182, 96, 1);
+}
+
+.dog-title {
+  margin-top: 10px;
+}
+
+.dog-temperament {
+  text-align: center;
+}
+
+.dogcard-button {
+  width: 100%;
+}
